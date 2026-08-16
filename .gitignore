@@ -1,0 +1,30 @@
+# Power BI temporary / backup files
+*.pbix.tmp
+*.pbit.tmp
+~$*.pbix
+
+# Power BI local cache / workspace
+*.lock
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python cache (if scripts are added later)
+__pycache__/
+*.py[cod]
+
+# Keep the main Power BI file and dataset tracked
+!dashboard/*.pbix
+!data/*.csv
